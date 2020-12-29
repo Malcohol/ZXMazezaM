@@ -36,7 +36,7 @@ in .tap format.
 ## Requirements:
 To build "MazezaM.tap" you will need:
 * zmakebas - converts a text file containing ZX Spectrum Basic into a .tap file.
-* python   - "mzm2bas.py" and "MazezaM.py" need python to run.
+* python   - The mzm-tools submodule contain python scripts for handling mzm files.
 * cpp      - the C preprocessor 
 
 You also will probably want:
