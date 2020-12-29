@@ -65,11 +65,10 @@ is hard-coded to be slightly larger than the result file size of MazezaM3.tap.
 The steps are
 
 1. Make the udgs and store them in MazezaM2.tap.
-2. Ensure "FINAL_BUILD" is *not* listed in the variable CPPMACROS.
-3. Type "make MazezaM.tap"
-4. Load and run "MazezaM.tap" in an emulator.
-5. As instructed by the program, save the file, use "bob.tap" or something.
-6. Copy "bob.tap" over MazezaM3.tap.
-7. Ensure "FINAL_BUILD" is listed in the variable CPPMACROS.
-8. Type "touch src/loader.bas" and then "make MazezaM0.tap"
-9. Type "make MazezaM.tap"
+2. Ensure "FINAL_BUILD" is listed in the variable CPPMACROS.
+3. Type "make"
+4. Load and run "MazezaM3.tap" in an emulator. (Note: The UDGs will not be correct for this run)
+5. As instructed by the program, save the file, use "newMazezaM3.tap".
+6. Quit the emulator.
+7. Copy "newMazezaM3.tap" over MazezaM3.tap.
+8. Type "make"

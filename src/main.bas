@@ -11,12 +11,12 @@
   REM
   REM   Copyright (C) 2002
   REM    Malcolm  Tyrrell
-  REM   tyrrelmr@cs.tcd.ie
+  REM Malcolm.R.Tyrrell@gmail.com
   REM
   REM This code may be used
   REM and distributed under
   REM the terms of the GNU
-  REM General Public Licence.
+  REM General Public Licence v3.
 
 #include "constants.bas"
 
