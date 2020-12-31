@@ -42,6 +42,12 @@ To build "MazezaM.tap" you will need:
 You also will probably want:
 * make     - automates the building process
 
+Ensure you populate the mzm-tools submodule. If it's an empty folder, then you
+cloned the repo without the recursive flag. These operations should get the
+mzm-tools submodule:
+* git submodule init 
+* git submodule update
+
 ## Instructions:
 A useable tape file can be built by ensuring that "FINAL_BUILD" is not
 listed in the variable CPPMACROS and typing "make MazezaM.tap". This program
